@@ -1,0 +1,25 @@
+{
+  "name": "warehouse_ks",
+  "version": "1.0.0",
+  "description": "START DATE : -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyikhaSonOfAdin/WAREHOUSE-WEB-APP-KS.git"
+  },
+  "keywords": [
+    "WAREHOUSE"
+  ],
+  "author": "MUCHAMAD SYIKHA AKMAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyikhaSonOfAdin/WAREHOUSE-WEB-APP-KS/issues"
+  },
+  "homepage": "https://github.com/SyikhaSonOfAdin/WAREHOUSE-WEB-APP-KS#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
