@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Days+One&family=Inter:wght@400;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;700&display=swap");
+
+body {
+  /* font-family: "Bebas Neue", sans-serif; */
+  /* font-family: "Days One", sans-serif; */
+  /* font-family: "DM Sans", sans-serif; */
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Playfair Display", serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.custom-height {
+  height: calc(100vh - 70px);
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.459);
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+  pointer-events: none;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Central Authentication</title>
+  <link rel="stylesheet" href="../style/client_styling_tailwind.css" />
+  <link rel="stylesheet" href="../style/client_additional_styling_class.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js" onload="if (AOS) {AOS.init();}"></script>
+</head>
+
+<body>
+  <div class="w-full flex justify-center items-center h-screen">
+    <form method="post" id="form" action="" class="w-[90%] md:w-1/2 lg:w-1/4 flex flex-col gap-4 h-max p-3">
+      <h1 class="text-3xl font-semibold uppercase text-center" data-aos="fade-up">
+        WELCOME ABOARD LADS!
+      </h1>
+
+      <div class="flex flex-col gap-2">
+        <label for="email" data-aos="fade-up" data-aos-delay="100">
+          Email<span class="text-red-600">*</span>
+        </label>
+        <input required data-aos="fade-up" data-aos-delay="200" type="text" id="email" name="email" class="w-full border border-neutral-500 rounded outline-none px-3 py-1 focus:bg-yellow-300/30 focus:border-yellow-500 focus:ring-inset focus:ring-1 focus:ring-yellow-500">
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <label for="email" data-aos="fade-up" data-aos-delay="300">
+          Password<span class="text-red-600">*</span>
+        </label>
+        <input required data-aos="fade-up" data-aos-delay="400" type="password" id="password" name="password" class="w-full border border-neutral-500 rounded outline-none px-3 py-1 focus:bg-yellow-300/30 focus:border-yellow-500 focus:ring-inset focus:ring-1 focus:ring-yellow-500">
+      </div>
+      <input id="menu" data-aos="fade-up" data-aos-delay="500" value="get in!" name="submit" type="submit" class="w-full text-lg py-1 text-white font-semibold bg-yellow-400 border-2 border-yellow-400 duration-100 transition-all">
+    </form>
+  </div>
+
+  <script src="../Controller/client_login_controller.js"></script>
+</body>
+
+</html>
